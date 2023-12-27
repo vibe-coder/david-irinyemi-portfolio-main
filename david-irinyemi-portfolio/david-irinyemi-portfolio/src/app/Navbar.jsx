@@ -21,7 +21,7 @@ const NavBar = () => {
           <p className='text-md font-bold'>M</p>
         </div>
         
-        <div id='menu-list' className="menu-list border-l border-b border-white flex-1 h-[300px] w-80 right-0 top-[50px] absolute z-[3] px-8 py-8 flex flex-col gap-8 bg-gray">
+        <div id='menu-list' className="menu-list border-l border-b border-white flex-1 h-[300px] w-[90%] md:w-[50%] lg:w-[30%] right-0 top-[50px] absolute z-[3] px-8 py-8 flex flex-col gap-8 bg-gray">
           <a href="/">About Me</a>
           <a href="/">Projects</a>
           <a href="/">Resume</a>
