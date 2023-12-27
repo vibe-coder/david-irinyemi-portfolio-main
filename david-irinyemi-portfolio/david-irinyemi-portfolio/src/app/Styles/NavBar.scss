@@ -1,0 +1,42 @@
+nav{
+
+  .right-section-wrapper{
+    position: relative;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-right: 32px;
+
+    #menu-list{
+      transform-origin: 0% 0%;
+      transform: translateX(100%);
+      transition: transform 0.4s;
+    }
+
+    #menu-button-wrapper{
+      transition: 0.3s ease-in-out
+    }
+
+    #input{
+      border-radius: 30px;
+      height: 28px;
+      width: 28px;
+      border: .9px solid #fff;
+      appearance: none;
+      z-index: 20px;
+      transition: 0.3s ease-in-out
+    }
+
+    #input:checked ~ #menu-list{
+      transform: translateX(0%);
+    }
+    
+    #input:checked{
+      border: .9px solid #017564;
+    }
+    #input:checked ~ #menu-button-wrapper{
+      background-color: #017564;
+      color: white;
+    }
+  }
+}
