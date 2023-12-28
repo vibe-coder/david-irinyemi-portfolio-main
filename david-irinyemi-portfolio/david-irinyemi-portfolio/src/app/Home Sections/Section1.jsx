@@ -1,4 +1,10 @@
 import './Styles/Section1.scss'
+import { Work_Sans } from 'next/font/google'
+
+const worksans = Work_Sans({ 
+  subsets: ['latin'],
+  // display: 'swap'
+})
 
 
 const Section1 = () => {
