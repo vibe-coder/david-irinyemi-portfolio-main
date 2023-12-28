@@ -23,7 +23,7 @@ module.exports = {
         'gray-dark': '#273444',
         'gray': '#111111',
         'text-gray': '#737373',
-        'gray-light': '#d3dce6',
+        'gray-light': '#b3b3b3',
       },
     },
   },
