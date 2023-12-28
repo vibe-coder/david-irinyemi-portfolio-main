@@ -3,7 +3,7 @@ import './Styles/Section1.scss'
 
 const Section1 = () => {
   return(
-    <section className="pt-5 h-screen">
+    <section className="pt-5 h-[80vh]">
       <div id='wrapper' className='h-full'>
         <div id='scroll' className="overflow-scroll">
           <div id='to-left' className="mt-[-30px] h-[14rem]">
