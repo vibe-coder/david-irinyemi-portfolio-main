@@ -35,5 +35,25 @@ section{
         }
       }
     }
+
+    #scroll-down-div{
+      div{
+        #arrow{
+          transform: rotate(90deg);
+          transform: translateY(-50%);
+          animation: scrollDown .91s infinite linear;
+          
+        }
+
+        @keyframes scrollDown {
+          from{
+            transform: translateY(-50%)
+          }
+          to{
+            transform: translateY(100%)
+          }
+        }
+      };
+    }
   }
 }
