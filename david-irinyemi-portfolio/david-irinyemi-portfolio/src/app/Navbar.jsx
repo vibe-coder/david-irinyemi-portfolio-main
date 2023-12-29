@@ -9,7 +9,7 @@ const worksans = Work_Sans({
 
 const NavBar = () => {
   return(
-    <nav className="py-5 w-screen border-b-2 font-sans border-burnt-orange flex justify-between relative">
+    <nav className="py-5 w-screen border-b-2 font-sans border-burnt-orange flex justify-between relative bg-peach">
       <h1 className="text-burnt-orange text-xl ml-8">DI.</h1>
 
       <div className="right-section-wrapper">

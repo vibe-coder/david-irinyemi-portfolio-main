@@ -8,7 +8,7 @@ const worksans = Work_Sans({
 
 const Footer = () => {
   return(
-    <section className="px-8 pb-12 text-text-gray h-[80vh] flex items-end border-t-2 border-transparent">
+    <section className="px-8 pb-12 text-text-gray h-[80vh] flex items-end border-t-2 border-transparent bg-peach">
       <div className='w-full'>
         <div>
           <h1 className='font tracking-widest fon'>SAY HELLO</h1>
@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         <div className='pt-14 flex flex-col gap-6 text-burnt-orange'>
-          <p>ABOUT ME</p>
+          <a href="/About" className='font cursor-pointer'>ABOUT ME</a>
           <p>PROJECTS</p>
           <p>RESUME</p>
         </div>
