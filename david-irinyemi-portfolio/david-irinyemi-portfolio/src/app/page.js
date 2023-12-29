@@ -5,7 +5,7 @@ import Footer from './Footer'
 
 export default function Home() {
   return (
-    <section className='bg-gray overflow-x-hidden h-screen'>
+    <section className='bg-peach overflow-x-hidden h-screen'>
       <NavBar/>
       <HomeContainer/>
       <Footer/>
