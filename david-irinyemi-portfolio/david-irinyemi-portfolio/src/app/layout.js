@@ -26,9 +26,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={big_shoulders_display.className}>
-        <NavBar/>
-        {children}
-        <Footer/>
+        <div className='overflow-x-hidden bg-peach'>
+          <NavBar/>
+          {children}
+          <Footer/>
+        </div>
       </body>
     </html>
   )
