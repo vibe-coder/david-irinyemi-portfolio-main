@@ -24,6 +24,8 @@ module.exports = {
         'gray': '#111111',
         'text-gray': '#737373',
         'gray-light': '#b3b3b3',
+        'peach': '#FCEDDA',
+        'burnt-orange': '#EE4E34'
       },
     },
   },
