@@ -1,6 +1,8 @@
 import { Inter, Work_Sans, Silkscreen, Staatliches, Big_Shoulders_Display } from 'next/font/google'
 
 import './globals.css'
+import NavBar from './Navbar'
+import Footer from './Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -23,7 +25,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={big_shoulders_display.className}>{children}</body>
+      <body className={big_shoulders_display.className}>
+        <NavBar/>
+        {children}
+        <Footer/>
+      </body>
     </html>
   )
 }
