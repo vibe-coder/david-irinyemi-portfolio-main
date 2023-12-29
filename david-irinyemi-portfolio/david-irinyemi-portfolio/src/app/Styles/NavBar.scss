@@ -14,7 +14,7 @@ nav{
     }
 
     #menu-button-wrapper{
-      color: #b3b3b3;
+      color: #EE4E34;
       transition: 0.3s ease-in-out
     }
 
@@ -22,7 +22,7 @@ nav{
       border-radius: 30px;
       height: 28px;
       width: 28px;
-      border: .9px solid #b3b3b3;
+      border: .9px solid #EE4E34;
       appearance: none;
       z-index: 20px;
       transition: 0.3s ease-in-out
@@ -33,10 +33,10 @@ nav{
     }
     
     #input:checked{
-      border: .9px solid #017564;
+      border: .9px solid #EE4E34;
     }
     #input:checked ~ #menu-button-wrapper{
-      background-color: #017564;
+      background-color: #EE4E34;
       color: white;
     }
   }
