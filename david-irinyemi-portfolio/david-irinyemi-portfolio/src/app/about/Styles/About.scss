@@ -1,0 +1,44 @@
+section{
+  #wrapper{
+    overflow: hidden;
+
+    #scroll{
+      white-space: nowrap;
+
+      #to-left{
+        margin-bottom: 10px;
+        animation: RightToLeft 70s infinite linear;
+        width: 1000vw;
+      }
+
+      @keyframes  RightToLeft {
+        from {
+          transform: translateX(0%);
+        }
+        to {
+          transform: translateX(-50%);
+        }
+      }
+    }
+  }
+
+  #scroll-down-div{
+    div{
+      #arrow{
+        transform: rotate(90deg);
+        transform: translateY(-50%);
+        animation: scrollDown .91s infinite linear;
+        
+      }
+
+      @keyframes scrollDown {
+        from{
+          transform: translateY(-50%)
+        }
+        to{
+          transform: translateY(100%)
+        }
+      }
+    };
+  }
+}
