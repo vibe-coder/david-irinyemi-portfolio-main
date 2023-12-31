@@ -14,7 +14,7 @@ const About = () => {
       </div>
 
       <div className="text-burnt-orange px-8 font-sans font-normal text-center md:text-2xl flex justify-center">
-        <p className="md:w-[85%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?</p>
+        <p className="md:w-[85%] lg:w-[60%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?</p>
       </div>
 
       <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-10'>
@@ -24,7 +24,7 @@ const About = () => {
       </div>
 
 
-      <div className="px-8 pt-10 md:pt-24 md:px-16">
+      <div className="px-8 pt-10 md:pt-24 md:px-16 lg:px-80">
         <table className="text-text-gray font-sans font-bold border w-full md:text-xl">
           <tr>
             <td className="border border-text-gray p-3 font-bold text-burnt-orange">Name</td>
@@ -41,10 +41,10 @@ const About = () => {
             <td className="border p-3 underline"><a href="https://github.com/vibe-coder" target="_blank">Vibe Coder</a></td>
           </tr>
 
-          <tr>
+          {/* <tr>
             <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Phone No:</td>
             <td className="border p-3">+234 901 241 6616</td>
-          </tr>
+          </tr> */}
 
           <tr>
             <td className="border border-text-gray pl-3 font-bold text-burnt-orange ">Mail</td>
