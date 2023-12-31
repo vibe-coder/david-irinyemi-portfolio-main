@@ -7,14 +7,14 @@ const About = () => {
     <section className="">
       <div id='wrapper'>
         <div id='scroll'>
-          <div id='to-left'>
-            <h1 className="text-[14rem] text-text-gray font-extrabold uppercase"> ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME</h1>
+          <div id='to-left' className="mt-[-30px]  md:mt-[-50px]">
+            <h1 className="text-[14rem] text-text-gray font-extrabold uppercase md:text-[20rem]"> ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME</h1>
           </div>
         </div>
       </div>
 
-      <div className="text-burnt-orange px-8 font-sans font-normal text-center">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?
+      <div className="text-burnt-orange px-8 font-sans font-normal text-center md:text-2xl flex justify-center">
+        <p className="md:w-[85%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?</p>
       </div>
 
       <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-10'>
@@ -24,8 +24,8 @@ const About = () => {
       </div>
 
 
-      <div className="px-8 pt-10">
-        <table className="text-text-gray font-sans font-bold border w-full">
+      <div className="px-8 pt-10 md:pt-24 md:px-16">
+        <table className="text-text-gray font-sans font-bold border w-full md:text-xl">
           <tr>
             <td className="border border-text-gray p-3 font-bold text-burnt-orange">Name</td>
             <td className="border p-3">David Irinyemi</td>
