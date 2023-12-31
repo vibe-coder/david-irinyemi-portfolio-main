@@ -2,7 +2,7 @@
 
 const Footer = () => {
   return(
-    <section className="px-8 pb-12 text-text-gray h-[80vh] flex items-end border-t-2 border-transparent bg-peach md:h-[70vh] md:px-16">
+    <section className="px-8 pb-12 text-text-gray h-[80vh] flex items-end border-t-2 border-transparent bg-peach md:h-[70vh] md:px-16 lg:px-24 lg:h-[100vh]">
       <div className='w-full'>
         <div>
           <h1 className='tracking-widest md:text-2xl'>SAY HELLO</h1>
