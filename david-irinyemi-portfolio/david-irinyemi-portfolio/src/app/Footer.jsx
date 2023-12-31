@@ -10,9 +10,9 @@ const Footer = () => {
         </div>
 
         <div className='pt-14 flex flex-col gap-6 text-burnt-orange'>
-          <a href="/About" className='font cursor-pointer md:text-2xl underline animation duration-200 ease-in-out hover:text-text-gray'>ABOUT ME</a>
-          <a href="/Project" className="md:text-2xl underline animation duration-200 ease-in-out hover:text-text-gray">PROJECTS</a>
-          <a className="md:text-2xl underline animation duration-200 ease-in-out hover:text-text-gray">RESUME</a>
+        <a href="/about" className='transition duration-200 ease-in-out w-[40%] hover:text-text-gray md:text-2xl'>About Me</a>
+        <a href="/projects" className='transition duration-200 ease-in-out w-[40%] hover:text-text-gray md:text-2xl'>Projects</a>
+        <a href="/" className='transition duration-200 ease-in-out w-[40%] hover:text-text-gray md:text-2xl'>Resume</a>
         </div>
 
         <div className='flex gap-5 pt-14'>
