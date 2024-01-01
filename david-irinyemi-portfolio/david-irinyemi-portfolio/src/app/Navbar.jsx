@@ -23,10 +23,10 @@ const NavBar = () => {
           <p className='text-md font-bold md:text-xl'>M</p>
         </div>
         
-        <div id='menu-list' className="border-l-2 border-b-2 border-burnt-orange text-burnt-orange flex-1 h-[245px] w-[90%] md:w-[50%] lg:w-[30%] right-0 top-[50px] absolute z-[3] px-14 py-8 flex flex-col gap-8 bg-peach text-lg font-bold justify-center md:text-xl md:top-[62.8px]">
+        <div id='menu-list' className="border-l-2 border-b-2 border-burnt-orange text-burnt-orange flex-1 h-[245px] w-[90%] md:w-[50%] lg:w-[30%] right-0 top-[50px] absolute z-[3] px-14 py-8 flex flex-col gap-8 bg-peach text-lg font-bold justify-center md:text-xl md:top-[62.8px] lg:top-[62.7px]">
           <a href="/about" className='transition duration-200 ease-in-out w-[40%] hover:text-text-gray '>About Me</a>
           <a href="/projects" className='transition duration-200 ease-in-out w-[40%] hover:text-text-gray '>Projects</a>
-          <a href="/" className='transition duration-200 ease-in-out w-[40%] hover:text-text-gray '>Resume</a>
+          <a href="https://drive.google.com/file/d/16MgC8TOUOT5RhAZIkmj02dqWJpbdBppQ/view?usp=drive_link" className='transition duration-200 ease-in-out w-[40%] hover:text-text-gray '>Resume</a>
         </div>
       </div>
     </nav>
