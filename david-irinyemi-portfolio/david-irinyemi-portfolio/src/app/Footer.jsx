@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='flex flex-row justify-center gap-6 mt-16 md:gap-20 md:w-[30%] lg:w-[50%] text-burnt-orange md:mt-20'>
           <a href="/about" className='transition duration-200 ease-in-out hover:text-text-gray md:text-2xl text-xl'>About Me</a>
           <a href="/projects" className='transition duration-200 ease-in-out hover:text-text-gray md:text-2xl text-xl'>Projects</a>
-          <a href="/" className='transition duration-200 ease-in-out hover:text-text-gray md:text-2xl text-xl'>Resume</a>
+          <a href="https://drive.google.com/file/d/16MgC8TOUOT5RhAZIkmj02dqWJpbdBppQ/view?usp=drive_link" target="_blank" className='transition duration-200 ease-in-out hover:text-text-gray md:text-2xl text-xl'>Resume</a>
         </div>
 
         <div className='flex gap-5 md:mt-7 mt-5'>
