@@ -15,7 +15,7 @@ const Projects = () => {
         <p className="text-center font-sans font-normal md:text-2xl lg:text-xl text-burnt-orange md:w-[85%] lg:w-[60%]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, placeat perspiciatis deleniti fuga libero aliquid tenetur fugit sequi ex corporis id debitis nam dolor a rem optio! Natus, beatae quasi?</p>
       </div>
 
-      <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-20 lg:mt-52'>
+      <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-44 lg:mt-52'>
         <div className='h-10 w-10 border border-burnt-orange rounded-3xl mt-2 flex justify-center items-start overflow-hidden'>
           <p id='arrow' className='text-3xl text-burnt-orange'>&#8675;</p>
         </div>

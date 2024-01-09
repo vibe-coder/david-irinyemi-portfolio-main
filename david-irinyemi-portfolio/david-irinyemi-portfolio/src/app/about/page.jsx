@@ -17,7 +17,7 @@ const About = () => {
         <p className="md:w-[85%] lg:w-[60%] md:text-2xl lg:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?</p>
       </div>
 
-      <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-10 lg:mt-52'>
+      <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-44 lg:mt-52'>
         <div className='h-10 w-10 border border-burnt-orange rounded-3xl mt-2 flex justify-center items-start overflow-hidden'>
           <p id='arrow' className='text-3xl text-burnt-orange'>&#8675;</p>
         </div>
