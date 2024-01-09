@@ -26,90 +26,94 @@ const About = () => {
 
       <div className="px-8 pt-10 md:pt-24 md:px-16 lg:px-80">
         <table className="text-text-gray font-sans font-bold border w-full md:text-xl">
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange">Name</td>
-            <td className="border p-3">David Irinyemi</td>
-          </tr>
+          <thead>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange">Name</td>
+              <td className="border p-3">David Irinyemi</td>
+            </tr>
+          </thead>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Position</td>
-            <td className="border p-3">Frontend Developer, Graphic Designer</td>
-          </tr>
+          <tbody>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Position</td>
+              <td className="border p-3">Frontend Developer, Graphic Designer</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Github</td>
-            <td className="border p-3 underline"><a href="https://github.com/vibe-coder" target="_blank">Vibe Coder</a></td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Github</td>
+              <td className="border p-3 underline"><a href="https://github.com/vibe-coder" target="_blank">Vibe Coder</a></td>
+            </tr>
 
-          {/* <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Phone No:</td>
-            <td className="border p-3">+234 901 241 6616</td>
-          </tr> */}
+            {/* <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Phone No:</td>
+              <td className="border p-3">+234 901 241 6616</td>
+            </tr> */}
 
-          <tr>
-            <td className="border border-text-gray pl-3 font-bold text-burnt-orange ">Mail</td>
-            <td className="border p-3 underline"><a href="mailto:thevibecoder@gmail.com" target="_black">thevibecoder@gmail.com</a></td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray pl-3 font-bold text-burnt-orange ">Mail</td>
+              <td className="border p-3 underline"><a href="mailto:thevibecoder@gmail.com" target="_black">thevibecoder@gmail.com</a></td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange ">LinkedIn</td>
-            <td className="border p-3 underline"><a href="https://www.linkedin.com/in/david-irinyemi-395220162/" target="_blank">David Irinyemi</a></td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange ">LinkedIn</td>
+              <td className="border p-3 underline"><a href="https://www.linkedin.com/in/david-irinyemi-395220162/" target="_blank">David Irinyemi</a></td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Twitter</td>
-            <td className="border p-3 underline"><a href="https://www.linkedin.com/in/david-irinyemi-395220162/" target="_blank">David Irinyemi</a></td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Twitter</td>
+              <td className="border p-3 underline"><a href="https://www.linkedin.com/in/david-irinyemi-395220162/" target="_blank">David Irinyemi</a></td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Years of Experience</td>
-            <td className="border p-3">Frontend Development (1 year building projects) | Graphic Design (6+ years)</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Years of Experience</td>
+              <td className="border p-3">Frontend Development (1 year building projects) | Graphic Design (6+ years)</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Skills</td>
-            <td className="border p-3">HTML / CSS</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange ">Skills</td>
+              <td className="border p-3">HTML / CSS</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">JavaScript</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">JavaScript</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">ReactJS</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">ReactJS</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">Tailwind CSS</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">Tailwind CSS</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">Git</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">Git</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">REST API</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">REST API</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">Figma</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">Figma</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">Illustrator</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">Illustrator</td>
+            </tr>
 
-          <tr>
-            <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
-            <td className="border p-3">Photoshop</td>
-          </tr>
+            <tr>
+              <td className="border border-text-gray p-3 font-bold text-burnt-orange "></td>
+              <td className="border p-3">Photoshop</td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </section>
