@@ -13,8 +13,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="text-burnt-orange px-8 font-sans font-normal text-center md:text-2xl flex justify-center">
-        <p className="md:w-[85%] lg:w-[60%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?</p>
+      <div className="text-burnt-orange px-8 font-sans font-normal text-center flex justify-center">
+        <p className="md:w-[85%] lg:w-[60%] md:text-2xl lg:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?</p>
       </div>
 
       <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-10 lg:mt-52'>
