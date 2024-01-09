@@ -8,7 +8,7 @@ const Section2 = () => {
       </div>
 
       <div className="mt-14 md:flex md:flex-col md:items-center md:mt-20 lg:mt-0 lg:items-end lg:w-full">
-        <div className="bg-text-gray text-text-gray h-[26rem] md:h-[30rem] lg:h-[30rem] md:w-[60%] lg:w-[80%]">
+        <div className="bg-text-gray text-text-gray h-[26rem] md:h-[30rem] lg:h-[26rem] md:w-[60%] lg:w-[80%]">
           This is picture holder
         </div>
 

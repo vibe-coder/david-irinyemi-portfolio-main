@@ -8,7 +8,7 @@ const About = () => {
       <div id='wrapper'>
         <div id='scroll'>
           <div id='to-left' className="mt-[-30px]  md:mt-[-30px]">
-            <h1 className="text-[14rem] text-text-gray font-extrabold uppercase md:text-[20rem]"> ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME</h1>
+            <h1 className="text-[14rem] text-text-gray font-extrabold uppercase md:text-[20rem] lg:text-[14rem]"> ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME - ABOUT ME</h1>
           </div>
         </div>
       </div>
