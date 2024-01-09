@@ -17,14 +17,14 @@ const About = () => {
         <p className="md:w-[85%] lg:w-[60%]">Lorem ipsum dolor, sit amet consectetur adipisicing elit. nulla fugiat laudantium, illo repudiandae quidem doloremque dolore blanditiis?</p>
       </div>
 
-      <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-10'>
+      <div id='scroll-down-div' className='font px-8 flex flex-col justify-between items-center mt-10 lg:mt-52'>
         <div className='h-10 w-10 border border-burnt-orange rounded-3xl mt-2 flex justify-center items-start overflow-hidden'>
           <p id='arrow' className='text-3xl text-burnt-orange'>&#8675;</p>
         </div>
       </div>
 
 
-      <div className="px-8 pt-10 md:pt-24 md:px-16 lg:px-80">
+      <div className="px-8 pt-10 md:pt-24 md:px-16 lg:px-80 lg:pt-56">
         <table className="text-text-gray font-sans font-bold border w-full md:text-xl">
           <tr>
             <td className="border border-text-gray p-3 font-bold text-burnt-orange">Name</td>
