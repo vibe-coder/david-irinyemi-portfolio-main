@@ -24,7 +24,7 @@ const About = () => {
       </div>
 
 
-      <div className="px-8 pt-10 md:pt-24 md:px-16 lg:px-80 lg:pt-56">
+      <div className="px-8 pt-10 md:pt-24 md:px-16 lg:px-80">
         <table className="text-text-gray font-sans font-bold border w-full md:text-xl">
           <tr>
             <td className="border border-text-gray p-3 font-bold text-burnt-orange">Name</td>
