@@ -1,5 +1,5 @@
-import Section1 from "./Home Sections/Section1";
-import Section2 from "./Home Sections/Section2";
+import Section1 from "./home-sections/Section1";
+import Section2 from "./home-sections/Section2";
 
 const HomeContainer = () => {
   return(
